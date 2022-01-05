@@ -98,6 +98,8 @@ hibernate:
         use_second_level_cache: false
         use_query_cache: false
     mappingLocations: classpath:hibernate.mapping.xml
+    configLocations: classpath:hibernate.cfg.xml
+
 dataSource:
     pooled: true
     jmxExport: true
